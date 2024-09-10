@@ -21,7 +21,7 @@ public class Exercicio20 {
         boolean condicao2 = b > 0;
         boolean condicao3 = c > 0;
 
-            if (condicao) {
+            if (condicao && condicao2 && condicao3) {
                 System.out.println("menor valor: " + menorValor);
                 System.out.println("maior valor: " + maiorValor);
             }else{
