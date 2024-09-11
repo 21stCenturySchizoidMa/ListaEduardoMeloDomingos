@@ -7,7 +7,7 @@ public class Exercicio17 {
         System.out.println("Digite um numero inteiro: ");
         int numInteiro = sc.nextInt();
 
-            if(numInteiro > 9){
+            if(numInteiro > 9 || numInteiro < 0){
                 System.out.println("valor invalido");
             }else{
                 System.out.println("valor valido");

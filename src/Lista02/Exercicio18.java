@@ -8,20 +8,17 @@ public class Exercicio18 {
         System.out.println("Digite um codigo entre 1 e 3: ");
         int codigo = sc.nextInt();
 
-        switch (codigo) {
-            case 1:
-                System.out.println("um");
-                break;
-            case 2:
-                System.out.println("dois");
-                break;
-            case 3:
-                System.out.println("tres");
-                break;
-            default:
-                System.out.println("codigo invalido");
-                break;
+        boolean condicao1 = codigo >=4;
+        boolean condicao2 = codigo <=0;
+
+        if(condicao1 || condicao2){
+            System.out.println("codigo invalido");
+        } else if (codigo == 1) {
+            System.out.println("um");
+        }else if (codigo == 2) {
+            System.out.println("dois");
+        }else {
+            System.out.println("tres");
         }
-        sc.close();
     }
 }
