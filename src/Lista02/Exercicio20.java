@@ -10,7 +10,7 @@ public class Exercicio20 {
         int b = sc.nextInt();
         System.out.println("Digite o valor C ");
         int c = sc.nextInt();
-
+        // utilizando os comandos Math ele captura o maior e o menor valor capturado pelas variaveis a,b e c para executar os comandos que foram ordenados, no caso para multiplicar o menor pelo maior e divider o maior pelo menor
         int maior = Math.max(a, Math.max(b, c));
         int menor = Math.min(a, Math.min(b, c));
 

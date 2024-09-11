@@ -10,7 +10,7 @@ public class Exercicio18 {
 
         boolean condicao1 = codigo >=4;
         boolean condicao2 = codigo <=0;
-
+        //crio uma condiçao true or false para verificar se a exigencia esta sendo respeitada, caso nao esteja ele exibe a mensagem de codigo invalido, porem caso o codigo esteja dentro do criterio ele roda o programa
         if(condicao1 || condicao2){
             System.out.println("codigo invalido");
         } else if (codigo == 1) {

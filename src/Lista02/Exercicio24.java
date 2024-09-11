@@ -19,7 +19,7 @@ public class Exercicio24 {
         System.out.println("4.sair:");
         System.out.println("escolha uma das opçoes acima");
         menu = sc.nextInt();
-
+        // programa onde a pessoa vai digitar dois numeros que irao ser capturados pelas variaveis num1 e num2 e partir disso o usuario vai ter a escolha de escolher oque ele quer saber sobre as duas variaveis
         switch (menu) {
             case 1:
                 System.out.println("1.verificar se é mutiplo ou nao:");

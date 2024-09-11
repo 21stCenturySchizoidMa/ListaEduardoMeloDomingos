@@ -18,7 +18,7 @@ public class Exercicio19 {
         boolean cond1 = A < (B + C);
         boolean cond2 = B < (A + C);
         boolean cond3 = C < (A + B);
-
+        // assim como o programa anterior este tambem cria uma situaçao onde verifica primeiro se os valores coletados estao dentro das condiçoes de um triangulo para assim poder descobrir que tipo de triangulo ele é
         if (cond1 && cond2 && cond3) {
             System.out.println("trinagulo vailido");
             if (A == B && B == C) {

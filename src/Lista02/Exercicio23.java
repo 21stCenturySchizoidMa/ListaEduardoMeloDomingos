@@ -15,7 +15,7 @@ public class Exercicio23 {
 
         System.out.println("digite uma opcao");
         menu = sc.nextInt();
-
+        //switch case com 4 operaçoes matematicas basicas, onde cada case fuciona separadamente da outra com comandos e funçoes proprias
         switch (menu) {
             case 1:
                 System.out.println("1.soma");

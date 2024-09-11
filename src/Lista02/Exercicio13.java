@@ -13,6 +13,7 @@ public class Exercicio13 {
 
         int primeiro,segundo,terceiro;
 
+        //* o codigo abaixo captura as variaveis e compara elas pare saber qual sao as maiores e menores para orgazinar elas em ordem decrescente, tambem poderia ser usado os comandos Math.max e Math.min
         if(numA >= numB && numA >= numC){
             primeiro = numA;
             if(numB >= numC){

@@ -12,7 +12,7 @@ public class Exercicio11 {
         System.out.println("estes sao os valores antes da troca:");
         System.out.println("valor de A: " + valorDeA);
         System.out.println("valor de B: " + valorDeB);
-
+        //a funçao abaixo captura os valores das variaveis A e B e verifica se elas sao diferentes, se sim ele roda o codigo para executar a troca
         if (valorDeA != valorDeB) {
             int temp = valorDeA;
             valorDeA = valorDeB;

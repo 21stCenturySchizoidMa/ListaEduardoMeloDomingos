@@ -21,7 +21,7 @@ public class Exercicio15 {
 
         media = (nota1 + nota2 + nota3 + nota4) / 4;
         System.out.printf("sua media foi: %.2f " , media);
-
+        //captura a variavel media e ve se ela é igual ou maior que sete,caso nao seja ela poem o aluno em situaçao de recuperaçao e faz um novo comando para a sua nova media a partir da nova e da antinga nota
         if(media >= 7) {
             System.out.println("situacao: aprovado");
         }else if(media < 7) {

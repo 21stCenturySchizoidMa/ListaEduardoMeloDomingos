@@ -8,7 +8,7 @@ public class Exercicio25 {
         double H = sc.nextDouble();
         System.out.println("informe seu sexo(use apenas M,m ou F,f): ");
         char sexo = sc.next().charAt(0);
-
+        //programa para saber o seu peso ideal baseado na sua altura e sexo
         if(sexo == 'M' || sexo == 'm'){
             double pesoIdeal = (72.7*H) - 58;
             System.out.printf("seu peso ideal é: %.2f" , pesoIdeal);
