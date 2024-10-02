@@ -8,6 +8,9 @@ public class Exercicio06 {
         String s1 = "ATGCCGTA";
         String s2 = "TAGACGTA";
 
+        System.out.println("pai " + s1);
+        System.out.println("mae " + s2);
+
         String[] filhosGerados = operacaoGenetica.recombinacao(s1, s2);
         System.out.println("primeiro filho " + filhosGerados[0] );
         System.out.println("segundo filho " + filhosGerados[1] );
